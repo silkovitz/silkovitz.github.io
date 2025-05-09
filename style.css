@@ -23,12 +23,6 @@ body {
     h1, h2 {
       color: #333;
     }
-    section {
-      margin: 1.5rem 0;
-    }
-    ul {
-      margin: 0.5rem 0 1rem 1.5rem;
-    }
     code {
       background: #eee;
       padding: 0.2rem 0.4rem;
