@@ -31,3 +31,14 @@ body {
     figure {
     	float: right;
     }
+
+    @keyframes squashStretch {
+  0%   { transform: scale(1, 1); }
+  30%  { transform: scale(1.2, 0.8); }
+  60%  { transform: scale(0.8, 1.2); }
+  100% { transform: scale(1, 1); }
+}
+
+.squash-stretch {
+  animation: squashStretch 0.3s ease-in-out;
+}
