@@ -13,7 +13,6 @@ body {
 	color: rgb(10, 10, 20);
       font-family: times;
       line-height: 1.6;
-      margin: 0;
       padding: 0 1rem;
       max-width: 800px;
     }
@@ -34,4 +33,7 @@ body {
       background: #eee;
       padding: 0.2rem 0.4rem;
       border-radius: 4px;
+    }
+    img {
+    	float: right;
     }
