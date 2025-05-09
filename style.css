@@ -9,7 +9,7 @@
 body {
 	max-width: 800px;
 	margin: 0 auto;
-	background-color: rgb(255, 255, 230);
+	background-color: rgb(255, 255, 240);
 	color: rgb(10, 10, 20);
       font-family: times;
       line-height: 1.6;
@@ -34,6 +34,6 @@ body {
       padding: 0.2rem 0.4rem;
       border-radius: 4px;
     }
-    img {
+    figure {
     	float: right;
     }
