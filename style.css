@@ -1,3 +1,6 @@
-* {
-	background-color: beige;
+body {
+	align-content: center;
+	font-family: times;
+	background-color: rgb(255, 255, 200);
+	color: rgb(10, 10, 20);
 }
