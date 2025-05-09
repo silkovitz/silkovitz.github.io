@@ -35,6 +35,7 @@ body {
     #satan {
     	cursor: pointer;
   animation: squashStretch 0.3s ease-in-out;
+  height: 120%;
     }
 
     @keyframes squashStretch {
