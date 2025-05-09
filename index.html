@@ -37,15 +37,15 @@
   <script src="honk.js"></script>
   <script>
     (function() {
-      const words = "Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua".split(" ");
+      const words = "lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua".split(" ");
       const textArea = document.getElementById("loremText");
       const slider = document.getElementById("wordCount");
       const countDisplay = document.getElementById("countDisplay");
       const button = document.getElementById("generateBtn");
 
       function generateLorem(count) {
-        let result = [];
-        for (let i = 0; i < count; i++) {
+        let result = ["Lorem", "ipsum", "dolor", "sit", "amet"];
+        for (let i = 0; i < count - 5; i++) {
           const randomIndex = Math.floor(Math.random() * words.length);
           result.push(words[randomIndex]);
         }
