@@ -46,7 +46,8 @@
       function generateLorem(count) {
         let result = [];
         for (let i = 0; i < count; i++) {
-          result.push(words[i % words.length]);
+          const randomIndex = Math.floor(Math.random() * words.length);
+          result.push(words[randomIndex]);
         }
         return result.join(" ");
       }
@@ -59,6 +60,7 @@
 
       slider.addEventListener("input", updateText);
       button.addEventListener("click", updateText);
+
       updateText();
     })();
   </script>
