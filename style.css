@@ -1,7 +1,18 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
 body {
-	margin-left:auto;
-    margin-right:auto;
+    display: table-cell;
+    vertical-align: middle;
 
 	color: white;
 	background-color: black;
+
+	image-rendering: pixelated;
 }
